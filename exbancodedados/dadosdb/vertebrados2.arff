@@ -1,0 +1,14 @@
+@relation vertebrados
+
+@attribute  nome {'Monstro Gila', 'Humano', 'Píton', 'Salmão', 'Baleia', 'Sapo', 'Dragão de Komodo', 'Morcego', 'Pomba', 'Gato', 'Leopardo', 'Tubarão', 'Tartaruga', 'Pinguim', 'Porco-espinho', 'Enguia', 'Salamandra'}
+@attribute  temperaturacorporal {'Sangue quente', 'Sangue frio'}
+@attribute  coberturadepele {'Cabelo', 'Escamas', 'Nenhuma', 'Penas', 'Pelo', 'Espinhos'}
+@attribute  dacria {'Sim', 'Não'}
+@attribute  seraquatico {'Não', 'Sim', 'Semi'}
+@attribute  seraereo {'Não', 'Sim'}
+@attribute  possuipernas {'Não', 'Sim'}
+@attribute  hiberna {'Não', 'Sim'}
+@attribute  rotulodeclasse {'Mamífero', 'Réptil', 'Peixe', 'Anfíbio', 'Ave'}
+
+@data
+'Monstro Gila', 'Sangue frio', 'Escamas', 'Não', 'Não', 'Não', 'Sim', 'Sim', 'Réptil'

@@ -8,7 +8,7 @@
 @attribute  seraereo {'Não', 'Sim'}
 @attribute  possuipernas {'Não', 'Sim'}
 @attribute  hiberna {'Não', 'Sim'}
-@attribute  rotudeclasse {'Mamífero', 'Réptil', 'Peixe', 'Anfíbio', 'Ave'}
+@attribute  rotulodeclasse {'Mamífero', 'Réptil', 'Peixe', 'Anfíbio', 'Ave'}
 
 @data
 'Humano',	'Sangue quente', 'Cabelo',	'Sim',	'Não',	'Não',	'Sim',	'Não',	'Mamífero'
