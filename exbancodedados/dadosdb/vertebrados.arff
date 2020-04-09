@@ -1,0 +1,29 @@
+@relation vertebrados
+
+@attribute  nome {'Humano', 'Píton', 'Salmão', 'Baleia', 'Sapo', 'Dragão de Komodo', 'Morcego', 'Pomba', 'Gato', 'Leopardo', 'Tubarão', 'Tartaruga', 'Pinguim', 'Porco-espinho', 'Enguia', 'Salamandra'}
+@attribute  temperaturacorporal {'Sangue quente', 'Sangue frio'}
+@attribute  coberturadepele {'Cabelo', 'Escamas', 'Nenhuma', 'Penas', 'Pelo', 'Espinhos'}
+@attribute  dacria {'Sim', 'Não'}
+@attribute  seraquatico {'Não', 'Sim', 'Semi'}
+@attribute  seraereo {'Não', 'Sim'}
+@attribute  possuipernas {'Não', 'Sim'}
+@attribute  hiberna {'Não', 'Sim'}
+@attribute  rotudeclasse {'Mamífero', 'Réptil', 'Peixe', 'Anfíbio', 'Ave'}
+
+@data
+'Humano',	'Sangue quente', 'Cabelo',	'Sim',	'Não',	'Não',	'Sim',	'Não',	'Mamífero'
+'Píton',	'Sangue frio',	 'Escamas',	'Não',	'Não',	'Não',	'Não',	'Sim',	'Réptil'
+'Salmão',	'Sangue frio',	 'Escamas',	'Não',	'Sim',	'Não',	'Não',	'Não',	'Peixe'
+'Baleia',	'Sangue quente', 'Cabelo',	'Sim',	'Sim',	'Não',	'Não',	'Não',	'Mamífero'
+'Sapo',	        'Sangue frio',	 'Nenhuma',	'Não',	'Sim',	'Não',	'Sim',	'Sim',	'Anfíbio'
+'Dragão de Komodo',	'Sangue frio',	 'Escamas',	'Não',	'Não',	'Não',	'Sim',	'Não',	'Réptil'
+'Morcego',	'Sangue quente',  'Cabelo',	'Sim',	'Não',	'Sim',	'Sim',	'Sim',	'Mamífero'
+'Pomba',	 'Sangue quente', 'Penas',	'Não',	'Não',	'Sim',	'Sim',	'Não',	'Ave'
+'Gato',	        'Sangue quente',  'Pelo',	'Sim',	'Não',	'Não',	'Sim',	'Não',	'Mamífero'
+'Leopardo',	'Sangue quente',  'Pelo',	'Sim',	'Sim',	'Não',	'Sim',	'Não',	'Mamífero'
+'Tubarão',	'Sangue frio',	  'Escamas',	'Não',	'Sim',	'Não',	'Não',	'Não',	'Peixe',
+'Tartaruga',	'Sangue frio',	  'Escamas',	'Não',	'Semi',	'Não',	'Sim',	'Não',	'Réptil'
+'Pinguim',	'Sangue quente',  'Penas',	'Não',	'Semi',	'Não',	'Sim',	'Não',	'Ave'
+'Porco-espinho'	'Sangue quente'	  'Espinhos'	'Sim'	'Não'	'Não'	'Sim'	'Sim'	'Mamífero'
+'Enguia',	'Sangue frio',	  'Escamas',	'Não',	'Sim',	'Não',	'Não',	'Não',	'Peixe'
+'Salamandra',	'Sangue frio',	  'Nenhuma',	'Não',	'Semi',	'Não',	'Sim',	'Sim',	'Anfíbio'
